@@ -1,16 +1,17 @@
 from odoo import api, fields, models, _
 
 SERVER_ACTION_CODE = (
+    "wizard = env['qr_code_button.wizard'].create({\n"
+    "    'res_model': model._name,\n"
+    "    'res_id': records[:1].id,\n"
+    "})\n"
     "action = {\n"
     "    'type': 'ir.actions.act_window',\n"
     "    'name': 'QR Code',\n"
     "    'res_model': 'qr_code_button.wizard',\n"
+    "    'res_id': wizard.id,\n"
     "    'view_mode': 'form',\n"
     "    'target': 'new',\n"
-    "    'context': {\n"
-    "        'default_res_model': model._name,\n"
-    "        'default_res_id': records[:1].id,\n"
-    "    },\n"
     "}\n"
 )
 
