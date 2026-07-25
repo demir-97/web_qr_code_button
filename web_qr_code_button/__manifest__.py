@@ -34,6 +34,7 @@ your server. The popup shows the code full-size, ready to right-click and
 save, or print from the browser.
 """,
     'depends': ['base'],
+    'images': ['static/description/banner.png'],
     'data': [
         'security/ir.model.access.csv',
         'views/qr_code_config_views.xml',
