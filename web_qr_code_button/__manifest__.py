@@ -43,5 +43,5 @@ save, or print from the browser.
     ],
     'installable': True,
     'application': False,
-    'license': 'OPL-1',
+    'license': 'LGPL-3',
 }
