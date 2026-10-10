@@ -1,10 +1,10 @@
 {
     'name': 'QR Code Button | Print & Share a QR Code From Any Record',
-    'version': '20.0.1.0.0',
+    'version': '20.0.1.0.1',
     'category': 'Productivity',
     'author': 'Meisanqo',
     'support': 'meisanqo@outlook.com',
-    'summary': 'Add a "Show QR Code" action to any record, from Settings.',
+    'summary': "Generate a QR code for any record in two clicks: switch the model on in Settings and a \"Show QR Code\" action appears in the Actions menu of every record. The QR code encodes a link back to the record, or the value of a Char or Text field you choose, ready for asset labels, product tags and warehouse bins. Print QR code labels straight from the browser or download the QR code as a PNG image. Built on Odoo's own barcode engine: no external service is called and nothing leaves your server.",
     'description': """
 QR Code Button
 ================
